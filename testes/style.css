@@ -1,0 +1,26 @@
+ @charset "UTF-8";
+
+ .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 1500px;
+  }
+  
+  .menu-item {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 36px;
+    line-height: 200px;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .menu-item:hover {
+    transform: rotateX(360deg);
+  }
+  
